@@ -64,7 +64,7 @@ Exercise-Video-Classifier/
 1. **Clone the repository**:
 
    ```sh
-   git clone https:[//github.com/Abdullah007bajwa/WorkoutVideoAnalyzer].git
+   git clone https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer.git
    cd WorkoutVideoAnalyzer
    ```
 
