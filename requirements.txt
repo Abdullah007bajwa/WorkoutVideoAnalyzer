@@ -1,0 +1,9 @@
+opencv-python-headless
+imutils
+numpy
+scikit-learn
+mediapipe
+tensorflow
+keras-tuner
+matplotlib
+flask
