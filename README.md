@@ -1,5 +1,3 @@
-Sure! Here is a README file for your project:
-
 ---
 
 # Exercise Video Classifier
