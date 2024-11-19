@@ -99,12 +99,17 @@ Exercise-Video-Classifier/
 
 4. View the classification results on the results page.
 
-### Sample Video for Classification
+### Sample Videos for Classification
 
-You can test the application using the sample video included in the repository. Here's how to use it:
+You can test the application using the sample videos included in the repository. Here's how to use them:
 
-1. Download the sample exercise video from this link: [Sample Exercise Video]([https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer/blob/main/uploads/Strong_Young_Man_Training_Bench_Press_Stock_Footage_Video_100_Royalty-free_1058641552.webm])
-2. Upload it to the application on the homepage.
+1. Download or use the following sample videos from the `uploads` folder:
+
+    - [Profile Shot of Young Woman Performing Barbell Exercise](uploads/Profile_Shot_Young_Woman_Performing_Barbell_Stock_Footage_Video_100_Royalty-free_1103943075.webm)
+    - [Strong Young Man Training Bench Press](uploads/Strong_Young_Man_Training_Bench_Press_Stock_Footage_Video_100_Royalty-free_1058641552.webm)
+    - [Top View of Professional Athlete Doing Bench Press](uploads/Top_View_Professional_Athlete_Doing_Bench_Stock_Footage_Video_100_Royalty-free_1035271574.webm)
+
+2. Upload a video to the application through the homepage.
 3. View the classification results based on the uploaded sample video.
 
 ### Training the Model
