@@ -103,7 +103,7 @@ Exercise-Video-Classifier/
 
 You can test the application using the sample video included in the repository. Here's how to use it:
 
-1. Download the sample exercise video from this link: [Sample Exercise Video](https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer/raw/main/sample_video.mp4).
+1. Download the sample exercise video from this link: [Sample Exercise Video]([https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer/raw/main/sample_video.mp4](https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer/blob/main/uploads/Strong_Young_Man_Training_Bench_Press_Stock_Footage_Video_100_Royalty-free_1058641552.webm)).
 2. Upload it to the application on the homepage.
 3. View the classification results based on the uploaded sample video.
 
