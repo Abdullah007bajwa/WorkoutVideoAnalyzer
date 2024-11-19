@@ -1,11 +1,8 @@
----
-
 # Exercise Video Classifier
 
-This project is an exercise video classification application built using TensorFlow and Flask. It processes videos to classify different types of exercises using a trained deep learning model.
+This project is an exercise video classification application built using **TensorFlow** and **Flask**. It processes videos to classify different types of exercises using a trained deep learning model.
 
 ## Table of Contents
-
 - [Project Overview](#project-overview)
 - [Directory Structure](#directory-structure)
 - [Installation](#installation)
@@ -16,15 +13,14 @@ This project is an exercise video classification application built using TensorF
 
 ## Project Overview
 
-The Exercise Video Classifier project involves:
+The **Exercise Video Classifier** project involves:
 
-1. **Data Preprocessing**: Extracting, renaming, and splitting the data.
-2. **Landmark Extraction**: Extracting landmarks from images for better model training.
-3. **Model Training**: Building and training a TensorFlow model.
-4. **Video Classification**: Using the trained model to classify exercise videos.
+- **Data Preprocessing**: Extracting, renaming, and splitting the data.
+- **Landmark Extraction**: Extracting landmarks from images for better model training.
+- **Model Training**: Building and training a TensorFlow model.
+- **Video Classification**: Using the trained model to classify exercise videos.
 
 ## Directory Structure
-
 ```
 Exercise-Video-Classifier/
 ├── app.py                      # Flask application
@@ -59,84 +55,78 @@ Exercise-Video-Classifier/
 
 ### Steps
 
-1. **Clone the repository**:
+1. Clone the repository:
+    ```
+    git clone https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer.git
+    cd WorkoutVideoAnalyzer
+    ```
 
-   ```sh
-   git clone https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer.git
-   cd WorkoutVideoAnalyzer
-   ```
+2. Create a virtual environment:
+    ```
+    python -m venv your-env-name
+    ```
 
-2. **Create a virtual environment**:
+3. Activate the virtual environment:
+    - **Windows**:
+        ```
+        your-env-name\Scripts\activate
+        ```
+    - **macOS/Linux**:
+        ```
+        source your-env-name/bin/activate
+        ```
 
-   ```sh
-   python -m venv your-env-name
-   ```
-
-3. **Activate the virtual environment**:
-
-   - **Windows**:
-
-     ```sh
-     your-env-name\Scripts\activate
-     ```
-
-   - **macOS/Linux**:
-
-     ```sh
-     source your-env-name/bin/activate
-     ```
-
-4. **Install the required packages**:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
+4. Install the required packages:
+    ```
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 
 ### Running the Flask Application
 
-1. **Start the Flask application**:
+1. Start the Flask application:
+    ```
+    python app.py
+    ```
 
-   ```sh
-   python app.py
-   ```
+2. Open your web browser and navigate to:
+    ```
+    http://127.0.0.1:5000
+    ```
 
-2. **Open your web browser and navigate to**:
+3. Upload a video file in one of the allowed formats (mp4, webm, avi).
 
-   ```
-   http://127.0.0.1:5000
-   ```
+4. View the classification results on the results page.
 
-3. **Upload a video file** in one of the allowed formats (`mp4`, `webm`, `avi`).
+### Sample Video for Classification
 
-4. **View the classification results** on the results page.
+You can test the application using the sample video included in the repository. Here's how to use it:
+
+1. Download the sample exercise video from this link: [Sample Exercise Video](https://github.com/Abdullah007bajwa/WorkoutVideoAnalyzer/raw/main/sample_video.mp4).
+2. Upload it to the application on the homepage.
+3. View the classification results based on the uploaded sample video.
 
 ### Training the Model
 
 To train the model, run the `main.py` script:
-
-```sh
+```
 python main.py
 ```
-
 This script will:
-
-1. Unzip and preprocess the data.
-2. Split the data into training, validation, and test sets.
-3. Extract landmarks from the images.
-4. Train and save the model.
+- Unzip and preprocess the data.
+- Split the data into training, validation, and test sets.
+- Extract landmarks from the images.
+- Train and save the model.
 
 ### Classifying a Video
 
 The `app.py` script handles video classification by:
-
-1. Loading the trained model.
-2. Uploading the video file through the web interface.
-3. Classifying the video using the trained model.
-4. Displaying the classification results.
+- Loading the trained model.
+- Uploading the video file through the web interface.
+- Classifying the video using the trained model.
+- Displaying the classification results.
 
 ## Acknowledgements
-
-- TensorFlow: [https://www.tensorflow.org/](https://www.tensorflow.org/)
-- Flask: [https://flask.palletsprojects.com/](https://flask.palletsprojects.com/)
+- [TensorFlow](https://www.tensorflow.org/)
+- [Flask](https://flask.palletsprojects.com/)
